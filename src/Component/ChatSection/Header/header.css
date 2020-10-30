@@ -1,0 +1,36 @@
+.header{
+    padding: 50px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+button{
+    border: none;
+    padding:14px 14px;
+    background: linear-gradient(50deg,#7CB8F7,#2A8BF2);
+    color: white;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+button:hover{
+    outline: 3px solid #7CB8F7;
+    outline-offset: -3px;
+    color: #7CB8F7;
+    background: transparent;
+}
+
+.fa-plus{
+    margin-right: 10px;
+    font-size: 10px;
+}

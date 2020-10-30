@@ -1,0 +1,33 @@
+.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+input{
+    width: 100%;
+    padding:14px 10px 14px 10px;
+    border-radius: 2px;
+    border:none;
+    transition: .3s ease-in-out;
+    outline: none;
+    font-weight: 500;
+    color: #707C97;
+}
+
+input::placeholder{
+    color: #707C97;
+    font-weight: 500;
+}
+
+.input i{
+    padding: 14px 0;
+    margin-right: 0;
+    background: white;
+    width:10%;
+    text-align: right;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color:#707C97;
+}
